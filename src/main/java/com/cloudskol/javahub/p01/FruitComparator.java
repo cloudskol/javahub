@@ -4,6 +4,8 @@ import java.util.Comparator;
 
 /**
  * @author tham
+ *
+ * Comparator for fruit object
  */
 
 public class FruitComparator implements Comparator<Fruit> {
