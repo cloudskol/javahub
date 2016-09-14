@@ -5,6 +5,8 @@ import java.util.List;
 
 /**
  * @author tham
+ *
+ * Data provider for fruit object
  */
 
 public class FruitDataProvider {
