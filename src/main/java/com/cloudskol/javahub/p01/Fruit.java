@@ -55,6 +55,13 @@ public class Fruit {
 
     @Override
     public String toString() {
-        return this.id + " > " + this.size;
+        final StringBuilder builder = new StringBuilder("{");
+        builder.append("id: " + id + ", ");
+        builder.append("type: " + type + ", ");
+        builder.append("color: " + color + ", ");
+        builder.append("size: " + size);
+        builder.append("}");
+
+        return builder.toString();
     }
 }
