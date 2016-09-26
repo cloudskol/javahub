@@ -5,6 +5,8 @@ import java.util.Map;
 
 /**
  * @author tham
+ *
+ * Find the alphabet order based on the given String and sum the order value
  */
 
 public class Problem03 {
